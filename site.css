@@ -36,3 +36,12 @@ aside {
 nav a {
     color: #F2FFFC;
 }
+
+main a {
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
