@@ -1,6 +1,7 @@
 body {
     background-color: #F2FFFC;
     font-family: "Crimson Text", 'Times New Roman', Times, serif;
+    font-size: 120%;
 }
 
 main h1 {
@@ -16,4 +17,22 @@ h2 {
 
 p {
     text-align: justify;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+}
+
+blockquote {
+    background-color: D9E5E3;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+nav a {
+    color: #F2FFFC;
 }
