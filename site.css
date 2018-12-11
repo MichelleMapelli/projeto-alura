@@ -2,6 +2,7 @@ body {
     background-color: #F2FFFC;
     font-family: "Crimson Text", 'Times New Roman', Times, serif;
     font-size: 120%;
+    line-height: 1.5;
 }
 
 main h1 {
@@ -9,10 +10,22 @@ main h1 {
     color: #FFF;
     text-align: center;
     font-size: 60px;
+    padding: 25px;
+    border-bottom: 10px solid black;
 }
 
 main h2 {
     font-size: 30px;
+}
+
+main a {
+    color: #851944;
+}
+
+main div {
+    padding: 30px 0;
+    widows: 720px;
+    margin: auto;
 }
 
 h1,
@@ -33,24 +46,15 @@ footer {
 blockquote {
     background-color: D9E5E3;
     margin: 20px 40px;
+    border: 10px solid #c2ccca;
+    width: 250px;
+    box-sizing: border-box;
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
-}
-
-nav a {
-    color: #F2FFFC;
-}
-
-main a {
-    color: #851944;
-}
-
-aside a {
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
 }
 
 aside h1 {
@@ -58,13 +62,13 @@ aside h1 {
     margin-bottom: 25px;
 }
 
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
 
-/*
-Nas instruções da aula fala de main div, mas não usei dive do html
-*/
-
-main {
-    padding: 30px 0;
+nav a {
+    color: #F2FFFC;
 }
 
 strong {
@@ -73,4 +77,10 @@ strong {
 
 em {
     font-style: italic;
+}
+
+blockquote,
+aside,
+footer {
+    padding: 20px;
 }
