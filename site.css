@@ -84,3 +84,7 @@ aside,
 footer {
     padding: 20px;
 }
+
+li {
+    display: inline-block;
+}
