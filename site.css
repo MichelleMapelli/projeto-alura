@@ -8,6 +8,11 @@ main h1 {
     background-color: #851944;
     color: #FFF;
     text-align: center;
+    font-size: 60px;
+}
+
+main h2 {
+    font-size: 30px;
 }
 
 h1,
@@ -17,7 +22,7 @@ h2 {
 
 p {
     text-align: justify;
-    margin: 0;
+    margin: 20px 0;
 }
 
 footer {
@@ -27,6 +32,7 @@ footer {
 
 blockquote {
     background-color: D9E5E3;
+    margin: 20px 40px;
 }
 
 aside {
@@ -45,4 +51,26 @@ main a {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+
+/*
+Nas instruções da aula fala de main div, mas não usei dive do html
+*/
+
+main {
+    padding: 30px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
