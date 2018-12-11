@@ -46,10 +46,17 @@ blockquote {
     box-sizing: border-box;
 }
 
-aside {
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
+    padding: 20px;
 }
 
 aside h1 {
