@@ -49,6 +49,12 @@ blockquote {
     box-sizing: border-box;
 }
 
+blockquote,
+aside,
+footer {
+    padding: 20px;
+}
+
 article {
     padding-bottom: 30px;
     border-bottom: 1px solid #ccc;
@@ -80,12 +86,6 @@ strong {
 
 em {
     font-style: italic;
-}
-
-blockquote,
-aside,
-footer {
-    padding: 20px;
 }
 
 .icones-sociais li {
