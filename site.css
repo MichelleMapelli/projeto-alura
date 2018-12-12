@@ -52,6 +52,10 @@ article {
     margin-bottom: 20px;
 }
 
+aside {
+    text-align: center;
+}
+
 .navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
@@ -87,7 +91,7 @@ footer {
     padding: 20px;
 }
 
-.icones-sociais li {
+.icones-sociais {
     display: inline-block;
 }
 
