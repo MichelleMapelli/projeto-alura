@@ -42,6 +42,8 @@ blockquote {
     background-color: D9E5E3;
     margin: 20px 40px;
     border: 10px solid #c2ccca;
+    border-bottom-color: #333;
+    border-right-color: #fff;
     width: 250px;
     box-sizing: border-box;
 }
