@@ -58,13 +58,6 @@ aside {
     text-align: center;
 }
 
-.navegacao-site {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    text-align: center;
-    padding: 20px;
-}
-
 aside h1 {
     font-size: 30px;
     margin-bottom: 25px;
@@ -101,4 +94,20 @@ footer {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+}
+
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }
