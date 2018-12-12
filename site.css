@@ -59,6 +59,12 @@ aside {
     text-align: center;
 }
 
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+}
+
 aside h1 {
     font-size: 30px;
     margin-bottom: 25px;
@@ -88,7 +94,7 @@ footer {
     padding: 20px;
 }
 
-.icones-sociais li {
+.icones-sociais {
     display: inline-block;
 }
 
