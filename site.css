@@ -71,6 +71,7 @@ aside a {
 
 nav a {
     color: #F2FFFC;
+    text-transform: lowercase;
 }
 
 strong {
