@@ -12,6 +12,7 @@ main h1 {
     font-size: 60px;
     padding: 25px;
     border-bottom: 10px solid black;
+    text-transform: uppercase;
 }
 
 main h2 {
