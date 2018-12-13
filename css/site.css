@@ -1,134 +1,141 @@
-body {
-    background-color: #F2FFFC;
-    font-family: "Crimson Text", 'Times New Roman', Times, serif;
-    font-size: 120%;
-    line-height: 1.5;
-}
-
-main h1 {
-    background-color: #851944;
-    color: #FFF;
-    text-align: center;
-    font-size: 60px;
-    padding: 25px;
-    border-bottom: 10px solid black;
-    text-transform: uppercase;
-}
-
-main h2 {
-    font-size: 30px;
-}
-
-main a {
-    color: #851944;
-}
-
-main div {
-    padding: 30px 0;
-    width: 720px;
-    margin: auto;
-}
-
-h1,
-h2 {
-    font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
-}
-
-p {
-    text-align: justify;
-    margin: 20px 0;
-}
-
-blockquote {
-    background-color: D9E5E3;
-    margin: 20px 40px;
-    border: 10px solid #c2ccca;
-    border-bottom-color: #333;
-    border-right-color: #fff;
-    width: 250px;
-    box-sizing: border-box;
-}
-
-article {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-aside {
-    text-align: center;
-}
-
-aside h1 {
-    font-size: 30px;
-    margin-bottom: 25px;
-}
-
-aside a {
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
-}
-
-nav a {
-    color: #F2FFFC;
-    text-transform: lowercase;
-}
-
-strong {
-    font-weight: bold;
-}
-
-em {
-    font-style: italic;
-}
-
-blockquote,
-aside,
-footer {
-    padding: 20px;
-}
-
-.rodape-pagina {
-    background-color: #000;
-    color: #F2FFFC;
-    padding: 20px;
-}
-
-.navegacao-site {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    text-align: center;
-    padding: 20px;
-}
-
-.leia-mais {
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
-}
-
-.icones-sociais li {
-    display: inline-block;
-}
-
-.icones-sociais a {
-    width: 40px;
-    height: 40px;
-    display: block;
-    text-indent: -9999px;
-}
-
-.github {
-    background-image: url(img/github.png);
-}
-
-.twitter {
-    background-image: url(img/twitter.png);
-}
-
-.linkedin {
-    background-image: url(img/linkedin.png);
-}
+        body {
+            background-color: #F2FFFC;
+            font-family: "Crimson Text", 'Times New Roman', Times, serif;
+            font-size: 120%;
+            line-height: 1.5;
+        }
+        
+        main h1 {
+            background-color: #851944;
+            color: #FFF;
+            text-align: center;
+            font-size: 60px;
+            padding: 25px;
+            border-bottom: 10px solid black;
+            text-transform: uppercase;
+        }
+        
+        main h2 {
+            font-size: 30px;
+        }
+        
+        main a {
+            color: #851944;
+        }
+        
+        main div {
+            padding: 30px 0;
+            width: 720px;
+            margin: auto;
+        }
+        
+        h1,
+        h2 {
+            font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+        }
+        
+        p {
+            text-align: justify;
+            margin: 20px 0;
+        }
+        
+        blockquote {
+            background-color: #D9E5E3;
+            margin: 20px 40px;
+            border: 10px solid #c2ccca;
+            border-bottom-color: #333;
+            border-right-color: #fff;
+            width: 250px;
+            box-sizing: border-box;
+        }
+        
+        blockquote,
+        aside,
+        footer {
+            padding: 20px;
+        }
+        
+        article {
+            padding-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        
+        aside {
+            text-align: center;
+        }
+        
+        aside h1 {
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+        
+        aside a {
+            color: inherit;
+            font-family: "Open Sans Condensed", sans-serif;
+        }
+        
+        nav a {
+            color: #F2FFFC;
+            text-transform: lowercase;
+        }
+        
+        strong {
+            font-weight: bold;
+        }
+        
+        em {
+            font-style: italic;
+        }
+        
+        blockquote,
+        aside,
+        footer {
+            padding: 20px;
+            display: inline-block;
+        }
+        
+        .rodape-pagina {
+            background-color: #000;
+            color: #F2FFFC;
+            padding: 20px;
+        }
+        
+        .navegacao-site {
+            background-color: #3C1D3D;
+            color: #F2FFFC;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .leia-mais {
+            padding: 8px;
+            margin: 16px;
+            display: block;
+            font-size: 24px;
+            text-align: center;
+            background-color: #E6E7E8;
+        }
+        
+        .icones-sociais li {
+            display: inline-block;
+        }
+        
+        .icones-sociais a {
+            width: 40px;
+            height: 40px;
+            display: block;
+            text-indent: -9999px;
+        }
+        
+        .github {
+            background-image: url(img/github.png);
+        }
+        
+        .twitter {
+            background-image: url(img/twitter.png);
+        }
+        
+        .linkedin {
+            background-image: url(img/linkedin.png);
+        }
