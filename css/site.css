@@ -99,6 +99,7 @@
         
         main h2 {
             font-size: 30px;
+            clear: both;
         }
         
         .icones-sociais li {
@@ -152,10 +153,6 @@
         aside {
             width: 20%;
             float: right;
-        }
-        
-        h2 {
-            clear: both;
         }
         
         aside {
