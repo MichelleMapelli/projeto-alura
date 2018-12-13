@@ -6,7 +6,7 @@
         }
         
         main {
-            width: 80%;
+            width: 85%;
             float: left;
         }
         
@@ -146,22 +146,26 @@
         }
         
         .foto-joao {
-            border: 10px solid black;
+            border-left: 10px solid black;
+            border-bottom: 10px solid black;
+            float: right;
+            box-sizing: border-box;
         }
         
         img,
         aside {
-            width: 20%;
+            width: 15%;
             float: right;
         }
         
         aside {
-            clear: right;
             box-sizing: border-box;
         }
         
         .navegacao-site {
-            border: 10px solid black;
+            border-left: 10px solid black;
+            border-bottom: 10px solid black;
+            float: right;
         }
         
         .clearfix {
