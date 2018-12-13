@@ -5,6 +5,11 @@
             line-height: 1.5;
         }
         
+        main {
+            width: 80%;
+            float: left;
+        }
+        
         h1,
         h2 {
             font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
@@ -33,6 +38,19 @@
             box-sizing: border-box;
         }
         
+        .citacao-petrobras {
+            float: left;
+        }
+        
+        .citacao-fiat {
+            float: right;
+        }
+        
+        cite {
+            font-style: italic;
+            float: right;
+        }
+        
         .navegacao-site {
             background-color: #3C1D3D;
             color: #F2FFFC;
@@ -42,6 +60,7 @@
         .rodape-pagina {
             background-color: #000;
             color: #F2FFFC;
+            clear: both;
         }
         
         main a {
@@ -127,4 +146,27 @@
         
         .foto-joao {
             border: 10px solid black;
+        }
+        
+        img,
+        aside {
+            width: 20%;
+            float: right;
+        }
+        
+        h2 {
+            clear: both;
+        }
+        
+        aside {
+            clear: right;
+            box-sizing: border-box;
+        }
+        
+        .navegacao-site {
+            border: 10px solid black;
+        }
+        
+        .clearfix {
+            clear: both;
         }
