@@ -31,27 +31,6 @@
             margin: 20px 0;
         }
         
-        .citacao-bio {
-            background-color: #D9E5E3;
-            margin: 20px 40px;
-            border: 10px solid #c2ccca;
-            width: 250px;
-            box-sizing: border-box;
-        }
-        
-        .citacao-petrobras {
-            float: left;
-        }
-        
-        .citacao-fiat {
-            float: right;
-        }
-        
-        cite {
-            font-style: italic;
-            float: right;
-        }
-        
         .navegacao-site {
             background-color: #3C1D3D;
             color: #F2FFFC;
@@ -95,14 +74,6 @@
             margin-bottom: 25px;
         }
         
-        strong {
-            font-weight: bold;
-        }
-        
-        em {
-            font-style: italic;
-        }
-        
         main h2 {
             font-size: 30px;
             clear: both;
@@ -116,15 +87,6 @@
             padding-bottom: 30px;
             border-bottom: 1px solid #ccc;
             margin-bottom: 20px;
-        }
-        
-        .leia-mais {
-            padding: 8px;
-            margin: 16px;
-            display: block;
-            font-size: 24px;
-            text-align: center;
-            background-color: #E6E7E8;
         }
         
         nav a {
@@ -173,7 +135,9 @@
         .navegacao-site {
             border-left: 10px solid black;
             border-bottom: 10px solid black;
-            float: right;
+            position: absolute;
+            top: 300px;
+            right: 0;
         }
         
         .clearfix {
