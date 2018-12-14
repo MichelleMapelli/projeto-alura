@@ -162,16 +162,12 @@
             right: 0;
         }
         
-        img,
-        aside {
-            width: 15%;
-            float: right;
-        }
-        
         aside {
             box-sizing: border-box;
             position: relative;
             top: 300px;
+            width: 15%;
+            float: right;
         }
         
         .navegacao-site {
