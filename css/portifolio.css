@@ -1,14 +1,16 @@
 .portifolio li {
-    width: 45%;
     display: inline-block;
     border: 8px solid black;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    background-color: #fafffc;
+    background-color: #FAFFFC;
+    width: 45%;
     box-sizing: border-box;
     padding: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
 }
 
+
+}
 .portifolio img {
     width: 100%;
 }
