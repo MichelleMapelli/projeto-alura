@@ -124,14 +124,69 @@ main {
     padding: 1em;
 }
 
+.subtitulo-principal {
+    font-size: 0.4em;
+}
+
 .palavra-home {
     position: absolute;
     color: #D5447E;
     font-family: "Shadows Into Light";
     font-weight: bold;
+    font-size: 0.4em;
 }
 
 .eficiencia {
-    top: 20%;
+    top: 25%;
+    left: 85%;
+}
+
+.boas-praticas {
+    top: 35%;
+    left: 25%;
+}
+
+.codigo-limpo {
+    top: 5%;
+    left: 85%;
+}
+
+.css3 {
+    top: 15%;
     left: 75%;
+}
+
+.html5 {
+    top: 25%;
+    left: 65%;
+}
+
+.javascript {
+    top: 5%;
+    left: 60%;
+}
+
+.acessibilidade {
+    top: 40%;
+    left: 75%;
+}
+
+.responsivo {
+    top: 12%;
+    left: 30%;
+}
+
+.otimizacoes {
+    top: 5%;
+    left: 10%;
+}
+
+.agilidade {
+    top: 20%;
+    left: 15%;
+}
+
+.design {
+    top: 35%;
+    left: 5%;
 }
