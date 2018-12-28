@@ -137,67 +137,56 @@ main {
 }
 
 .eficiencia {
-    position: absolute;
     top: 25%;
     left: 85%;
 }
 
 .boas-praticas {
-    position: absolute;
     top: 35%;
     left: 25%;
 }
 
 .codigo-limpo {
-    position: absolute;
     top: 5%;
     left: 85%;
 }
 
 .css3 {
-    position: absolute;
     top: 15%;
     left: 75%;
 }
 
 .html5 {
-    position: absolute;
     top: 25%;
     left: 65%;
 }
 
 .javascript {
-    position: absolute;
     top: 5%;
     left: 60%;
 }
 
 .acessibilidade {
-    position: absolute;
     top: 40%;
     left: 75%;
 }
 
 .responsivo {
-    position: absolute;
     top: 12%;
     left: 30%;
 }
 
 .otimizacoes {
-    position: absolute;
     top: 5%;
     left: 10%;
 }
 
 .agilidade {
-    position: absolute;
     top: 20%;
     left: 15%;
 }
 
 .design {
-    position: absolute;
     top: 35%;
     left: 5%;
 }
