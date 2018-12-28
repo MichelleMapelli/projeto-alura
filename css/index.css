@@ -137,56 +137,60 @@ main {
 }
 
 .eficiencia {
-    top: 25%;
+    top: 45%;
     left: 85%;
 }
 
 .boas-praticas {
-    top: 35%;
+    top: 65%;
     left: 25%;
 }
 
 .codigo-limpo {
-    top: 5%;
+    top: 15%;
     left: 85%;
 }
 
 .css3 {
-    top: 15%;
+    top: 35%;
     left: 75%;
 }
 
 .html5 {
-    top: 25%;
+    top: 55%;
     left: 65%;
 }
 
 .javascript {
-    top: 5%;
+    top: 15%;
     left: 60%;
 }
 
 .acessibilidade {
-    top: 40%;
+    top: 80%;
     left: 75%;
 }
 
 .responsivo {
-    top: 12%;
+    top: 32%;
     left: 30%;
 }
 
 .otimizacoes {
-    top: 5%;
+    top: 15%;
     left: 10%;
 }
 
 .agilidade {
-    top: 20%;
+    top: 40%;
     left: 15%;
 }
 
 .design {
-    top: 35%;
+    top: 75%;
     left: 5%;
+}
+
+header {
+    position: relative;
 }
