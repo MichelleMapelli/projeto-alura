@@ -1,10 +1,10 @@
 .foto-home {
     height: 200px;
     border-radius: 10% 50% / 50% 10%;
-    -webkit-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    -moz-border-radius: 50%;
+    -webkit-border-radius: 10% 50% / 50% 10%;
+    -ms-border-radius: 10% 50% / 50% 10%;
+    -o-border-radius: 10% 50% / 50% 10%;
+    -moz-border-radius: 10% 50% / 50% 10%;
 }
 
 .saudacao p {
