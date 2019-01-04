@@ -169,66 +169,77 @@ main {
 .eficiencia {
     top: 45%;
     left: 85%;
+    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
 }
 
 .boas-praticas {
     top: 65%;
     left: 25%;
+    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
 
 .codigo-limpo {
     top: 15%;
     left: 85%;
+    -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
 }
 
 .css3 {
     top: 35%;
     left: 75%;
+    -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
 }
 
 .html5 {
     top: 55%;
     left: 65%;
-    transform: rotate(0deg);
+    -webkit-transform: rotate(05deg);
+    transform: rotate(5deg);
 }
 
 .javascript {
     top: 15%;
     left: 60%;
+    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
 }
 
 .acessibilidade {
     top: 80%;
     left: 75%;
+    -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
 }
 
 .responsivo {
     top: 32%;
     left: 30%;
+    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
 }
 
 .otimizacoes {
     top: 15%;
     left: 10%;
+    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
 }
 
 .agilidade {
     top: 40%;
     left: 15%;
+    -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
 }
 
 .design {
     top: 75%;
     left: 5%;
+    -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
 }
 
