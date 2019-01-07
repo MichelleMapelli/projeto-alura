@@ -182,16 +182,20 @@ body {
 .palavra-home {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
-    font-size: 400%;
+    font-size: 1.4em;
     color: #D5447E;
     position: absolute;
+}
+
+.palavras-home li {
+    font-size: 200%;
 }
 
 .eficiencia {
     top: 50%;
     left: 60%;
-    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
-    transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px) scale(.25);
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px) scale(.25);
 }
 
 .boas-praticas {
