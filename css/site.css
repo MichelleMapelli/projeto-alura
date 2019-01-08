@@ -24,6 +24,9 @@ h2 {
     border-bottom: 0.5rem solid black;
     font-size: 310%;
     text-transform: uppercase;
+}
+
+.titulo-principal h1 {
     text-shadow: 5px 5px #000;
 }
 
