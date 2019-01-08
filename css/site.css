@@ -41,7 +41,7 @@ main p {
 }
 
 .rodape-pagina {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #F2FFFC;
     clear: both;
     position: fixed;
