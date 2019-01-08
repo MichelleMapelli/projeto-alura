@@ -1,8 +1,21 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    perspective: 6px;
+    perspective-origin: 50% 160px;
+}
+
+header {
+    position: relative;
+}
+
 .foto-home {
     height: 200px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     box-shadow: 0 0 1em #000;
 }
 
@@ -58,6 +71,7 @@
     font-size: 3em;
     text-transform: uppercase;
     margin-bottom: .5em;
+    text-shadow: 2px 2px #000;
 }
 
 .trabalhos {
@@ -150,19 +164,6 @@ main {
     font-size: 0.4em;
 }
 
-html,
-body {
-    height: 100%;
-    overflow-x: hidden;
-}
-
-body {
-    -webkit-perspective: 6px;
-    perspective: 6px;
-    -webkit-perspective-origin: 50% 160px;
-    perspective-origin: 50% 160px;
-}
-
 .palavras-home,
 .titulo-principal {
     transform-style: preserve-3d;
@@ -179,16 +180,16 @@ body {
     left: 0;
 }
 
+.palavras-home li {
+    font-size: 200%;
+}
+
 .palavra-home {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
     font-size: 1.4em;
     color: #D5447E;
     position: absolute;
-}
-
-.palavras-home li {
-    font-size: 200%;
 }
 
 .eficiencia {
@@ -281,10 +282,6 @@ body {
     opacity: 0.6;
 }
 
-header {
-    position: relative;
-}
-
 .banner-twitter {
     width: 14em;
     line-height: 1;
@@ -297,16 +294,9 @@ header {
     border: 0.25em solid black;
     font-size: 0.8em;
     font-family: "Open Sans Condensed", sans-serif;
-}
-
-.banner-twitter {
     position: absolute;
     top: 0;
     right: 0;
     transform-origin: 0 0;
     transform: translate(6.5754em, -2.4749em) rotate(45deg);
-}
-
-.secao-inicio h2 {
-    text-shadow: 5px 5px #000;
 }
