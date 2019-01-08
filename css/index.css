@@ -296,8 +296,3 @@ header {
     transform-origin: 0 0;
     transform: translate(6.5754em, -2.4749em) rotate(45deg);
 }
-
-h1 {
-    text-transform: uppercase;
-    text-shadow: 5px 5px #000;
-}
