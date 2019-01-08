@@ -148,16 +148,6 @@ main {
     float: none;
 }
 
-.inicio-post {
-    background-color: #fff;
-    position: absolute;
-    color: black;
-    top: 3em;
-    right: 3em;
-    height: 6em;
-    padding: 1em;
-}
-
 .subtitulo-principal {
     font-size: 0.4em;
 }
@@ -171,6 +161,7 @@ body {
 
 .palavras-home {
     -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
     position: absolute;
     bottom: 0;
@@ -195,6 +186,7 @@ body {
     top: 50%;
     left: 60%;
     -webkit-transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px) scale(.25);
+    -moz-transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px) scale(.25);
     transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px) scale(.25);
 }
 
