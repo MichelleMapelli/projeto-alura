@@ -152,11 +152,22 @@ main {
     font-size: 0.4em;
 }
 
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
 body {
     -webkit-perspective: 6px;
     perspective: 6px;
     -webkit-perspective-origin: 50% 160px;
     perspective-origin: 50% 160px;
+}
+
+.palavras-home,
+.titulo-principal {
+    transform-style: preserve-3d;
 }
 
 .palavras-home {
