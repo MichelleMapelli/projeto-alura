@@ -146,6 +146,17 @@ header {
     width: 30%;
 }
 
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
+
+.blog a:hover,
+.blog a:focus {
+    background-color: #f2fffc;
+    color: #f26;
+}
+
 footer {
     background-color: #000;
     color: #FFF;
