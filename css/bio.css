@@ -50,3 +50,19 @@ strong {
 em {
     font-style: italic;
 }
+
+
+/*
+blockquote p::first-letter {
+    font-size: 3em;
+}
+*/
+
+
+/*
+blockquote::before {
+    content: '"';
+    font-size: 10em;
+    position: absolute;
+}
+*/
