@@ -58,14 +58,17 @@ blockquote p::first-letter {
 }
 */
 
-
-/*
-blockquote::before {
-    content: '"';
-    font-size: 10em;
+.citacao-bio::before {
+    content: '“';
     position: absolute;
+    font-size: 10em;
+    color: #bbb;
+    line-height: 0.8;
 }
-*/
+
+.citacao-bio>p {
+    position: relative;
+}
 
 .container>p:first-letter {
     font-size: 200%;
