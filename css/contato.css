@@ -85,14 +85,13 @@ input[value="Outro"]:checked~input {
     display: inline;
 }
 
-label[for="nome"] {
+.com-icone {
     position: relative;
 }
 
-label[for="nome"]::after {
+.com-icone::after {
     content: "";
     background-color: #d3d3d3;
-    background-image: url(../img/ICONE-SAC-MATRIZ.png);
     background-size: 50% 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -103,9 +102,16 @@ label[for="nome"]::after {
     left: 0;
 }
 
-#nome {
-    width: calc(100% - 2em);
+.com-icone+input {
     position: relative;
     left: 2em;
-    ;
+    width: calc(100% - 2em);
+}
+
+.com-icone[for="nome"]::after {
+    background-image: url(../img/ICONE-SAC-MATRIZ.png);
+}
+
+.com-icone[for="email"]::after {
+    background-image: url(../img/email.png);
 }
