@@ -1,3 +1,59 @@
 .navegacao-site {
     position: absolute;
 }
+
+legend,
+label[for="mensagem"] {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+label[for] {
+    display: block;
+}
+
+
+/*Selecionar apenas os campos de texto*/
+
+input[type="text"],
+input[type="email"],
+textarea {
+    /*Força o navegador a usar a mesma fonte da pagina*/
+    font-family: inherit;
+    /*inclusive o tamanho dela*/
+    font-size: 100%;
+    padding: 0.25em 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+
+/*Alguns ajustes para o campo "outro": deixar ele na mesma linha dos outros assuntos*/
+
+fieldset>fieldset {
+    display: inline;
+}
+
+
+/*deixar o rotulo dele inline novamente*/
+
+label[for="outro"] {
+    display: inline;
+}
+
+
+/*Deixar só esse campo sem ocupar a tela toda*/
+
+input[name="outro-assunto"] {
+    width: auto;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #ffd;
+}
+
+input:invalid {
+    box-shadow: 0 0 3px red;
+}
