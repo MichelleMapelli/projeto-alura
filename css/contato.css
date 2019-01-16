@@ -76,3 +76,11 @@ button:hover,
 button:focus {
     background-color: #8c1d3d;
 }
+
+input[value="Outro"]~input {
+    display: none;
+}
+
+input[value="Outro"]:checked~input {
+    display: inline;
+}
