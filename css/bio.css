@@ -102,4 +102,5 @@ blockquote p::first-letter {
 .habilidades {
     border-collapse: separate;
     border-spacing: 0.25em;
+    margin: 1em 0;
 }
