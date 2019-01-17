@@ -5,7 +5,7 @@
     margin: 1em 2em;
     width: 30ch;
     box-sizing: border-box;
-    transition: transform 1s, box-shadow 2s;
+    transition: transform 1s linear, box-shadow 2s ease-in;
     transition-delay: 0s, 1s;
 }
 
