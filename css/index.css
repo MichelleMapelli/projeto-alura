@@ -61,6 +61,15 @@ header {
     display: block;
     text-align: center;
     box-shadow: 0 0 1em #000, inset 0 0 .5em #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.botao-index:focus,
+.botao-index:hover {
+    background-color: #C54974;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
 }
 
 .secao-inicio {
