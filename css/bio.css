@@ -78,3 +78,20 @@ blockquote p::first-letter {
     margin-right: .2ch;
     line-height: 1;
 }
+
+td:first-of-type {
+    background-color: #851944;
+    color: white;
+    font-weight: bold;
+}
+
+thead th {
+    background-color: #3c1d3d;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    background-color: #EEE;
+    color: inherit;
+}
