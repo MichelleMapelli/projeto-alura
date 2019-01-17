@@ -79,19 +79,27 @@ blockquote p::first-letter {
     line-height: 1;
 }
 
-td:first-of-type {
+.habilidades th {
     background-color: #851944;
     color: white;
     font-weight: bold;
 }
 
-thead th {
+.habilidades thead th {
     background-color: #3c1d3d;
-    color: white;
-    font-weight: bold;
 }
 
-table {
+.habilidades td {
     background-color: #EEE;
     color: inherit;
+}
+
+.habilidades th,
+.habilidades td {
+    padding: 1em;
+}
+
+.habilidades {
+    border-collapse: separate;
+    border-spacing: 0.25em;
 }
