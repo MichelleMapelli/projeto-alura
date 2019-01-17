@@ -212,6 +212,22 @@ main {
     font-size: 1.4em;
     color: #D5447E;
     position: absolute;
+    -webkit-animation: aparece 2s;
+    animation: aparece 2s;
+}
+
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+
+@-webkit-keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
 }
 
 .eficiencia {

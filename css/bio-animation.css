@@ -28,8 +28,8 @@ h1 {
     margin: 1em 2em;
     width: 30ch;
     box-sizing: border-box;
-    transition: transform 1s linear, box-shadow 2s ease-in;
-    transition-delay: 0s, 1s;
+    transition: box-shadow 1s ease-in, transform 1s linear;
+    transition-delay: 1s, 0s;
     position: relative;
     -webkit-animation: quica 1s infinite;
     animation: quica 1s infinite;
@@ -74,6 +74,7 @@ h1 {
     box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
+    transition-delay: 0s, 1s;
 }
 
 
