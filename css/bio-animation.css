@@ -30,11 +30,38 @@ h1 {
     box-sizing: border-box;
     transition: transform 1s linear, box-shadow 2s ease-in;
     transition-delay: 0s, 1s;
+    position: relative;
+    -webkit-animation: quica 1s infinite;
+    animation: quica 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes quica {
+    from {
+        top: 0;
+    }
+    to {
+        top: 1em;
+    }
+}
+
+@keyframes quica {
+    from {
+        top: 0;
+    }
+    to {
+        top: 1em;
+    }
 }
 
 .citacao-bio:hover,
 .citacao-bio:focus {
     box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 
