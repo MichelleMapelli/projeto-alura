@@ -48,6 +48,36 @@ header {
     -webkit-transform: rotate(-5deg) skew(-20deg);
     -moz-transform: rotate(-5deg) skew(-20deg);
     transform: rotate(-5deg) skew(-20deg);
+    animation: flutua 1s;
+    -webkit-animation: flutua 1s infinite;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    position: relative;
+}
+
+.saudacao:hover em {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+
+@-webkit-keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
 }
 
 .botao-index {
