@@ -338,5 +338,9 @@ main {
     transform-origin: 0 0;
     transform: translate(calc(0.707 * (3.5em - 100%) + 100%), calc(-0.707 * 3.5em)) rotate(45deg);
     animation: aparece 0.5s;
+    -webkit-animation: aparece 0.5s;
     animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
 }
