@@ -43,6 +43,12 @@ h1 {
     from {
         top: 0;
     }
+    90% {
+        transform: rotate(-2deg);
+    }
+    95% {
+        transform: rotate(2deg);
+    }
     to {
         top: 1em;
     }
@@ -51,6 +57,12 @@ h1 {
 @keyframes quica {
     from {
         top: 0;
+    }
+    90% {
+        transform: rotate(-2deg);
+    }
+    95% {
+        transform: rotate(2deg);
     }
     to {
         top: 1em;
