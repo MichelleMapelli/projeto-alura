@@ -1,5 +1,6 @@
-.portifolio ul {
+.portifolio {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .portifolio li {
@@ -12,9 +13,13 @@
     margin-right: 16px;
     margin-bottom: 16px;
     box-shadow: 0 0 4px #000;
-    flex: 1;
+    flex: 1 1 45%;
 }
 
 .portifolio img {
     width: 100%;
+}
+
+.portifolio li:first-child {
+    flex-basis: 100%;
 }
