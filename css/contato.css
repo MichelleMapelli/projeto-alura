@@ -108,3 +108,10 @@ input[value="Outro"]:checked~input {
 .com-icone[for="email"]::after {
     background-image: url(../img/email.png);
 }
+
+.container-form {
+    width: 720px;
+    margin-left: 50px;
+    margin-right: auto;
+    padding: 1.5em 0;
+}
