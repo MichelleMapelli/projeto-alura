@@ -3,6 +3,8 @@ body {
     background-color: #F2FFFC;
     line-height: 1.5;
     font-size: 120%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main {

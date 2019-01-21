@@ -7,6 +7,7 @@ body {
 body {
     perspective: 6px;
     perspective-origin: 50% 160px;
+    display: block;
 }
 
 header {
