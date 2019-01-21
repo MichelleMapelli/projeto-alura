@@ -8,9 +8,8 @@ body {
 }
 
 main {
-    width: calc(100% - 0.9 * 300px);
-    float: left;
     padding-bottom: 80px;
+    flex-grow: 1;
 }
 
 h1,
@@ -155,11 +154,10 @@ nav a {
     border-left: 0.5em solid black;
     border-bottom: 0.5em solid black;
     box-sizing: border-box;
-    position: relative;
     right: 0;
-    top: 300px;
     width: calc(0.9 * 300px);
     float: right;
+    padding-top: calc(300px + 1em);
 }
 
 .clearfix {
