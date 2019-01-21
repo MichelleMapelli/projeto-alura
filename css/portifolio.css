@@ -1,3 +1,7 @@
+.portifolio ul {
+    display: flex;
+}
+
 .portifolio li {
     display: inline-block;
     border: 8px solid black;
@@ -8,6 +12,7 @@
     margin-right: 16px;
     margin-bottom: 16px;
     box-shadow: 0 0 4px #000;
+    flex: 1;
 }
 
 .portifolio img {
