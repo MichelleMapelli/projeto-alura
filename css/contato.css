@@ -1,14 +1,11 @@
-.navegacao-site {
-    position: absolute;
-}
-
 legend,
 label[for="mensagem"] {
     font-weight: bold;
     margin-top: 1em;
 }
 
-label[for] {
+label[for],
+button {
     display: block;
 }
 
@@ -30,10 +27,6 @@ textarea {
 
 
 /*Alguns ajustes para o campo "outro": deixar ele na mesma linha dos outros assuntos*/
-
-fieldset>fieldset {
-    display: inline;
-}
 
 
 /*deixar o rotulo dele inline novamente*/
