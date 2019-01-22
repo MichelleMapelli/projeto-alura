@@ -1,6 +1,7 @@
 h1 {
     animation: aparece 2s;
     -webkit-animation: aparece 2s;
+    -moz-animation: aparece 2s;
 }
 
 @-webkit-keyframes aparece {
@@ -28,13 +29,18 @@ h1 {
     margin: 1em 2em;
     width: 30ch;
     box-sizing: border-box;
+    -moz-transition: box-shadow 1s ease-in, transform 1s linear;
+    -webkit-transition: box-shadow 1s ease-in, transform 1s linear;
     transition: box-shadow 1s ease-in, transform 1s linear;
     transition-delay: 1s, 0s;
     position: relative;
+    -moz-animation: quica 1s infinite;
     -webkit-animation: quica 1s infinite;
     animation: quica 1s infinite;
+    -moz-animation-direction: alternate;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+    -moz-animation-timing-function: ease-in;
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
 }
@@ -72,8 +78,11 @@ h1 {
 .citacao-bio:hover,
 .citacao-bio:focus {
     box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+    -moz-animation-play-state: paused;
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
+    -moz-transition-delay: 0s, 1s;
+    -webkit-transition-delay: 0s, 1s;
     transition-delay: 0s, 1s;
 }
 
@@ -87,6 +96,8 @@ h1 {
 
 .citacao-bio:nth-of-type(even):hover,
 .citacao-bio:nth-of-type(even):focus {
+    -moz-transform: scale(1.2) rotate(-5deg);
+    -webkit-transform: scale(1.2) rotate(-5deg);
     transform: scale(1.2) rotate(-5deg);
 }
 
@@ -100,6 +111,8 @@ h1 {
 
 .citacao-bio:nth-of-type(odd):hover,
 .citacao-bio:nth-of-type(odd):focus {
+    -moz-transform: scale(1.2) rotate(5deg);
+    -webkit-transform: scale(1.2) rotate(5deg);
     transform: scale(1.2) rotate(5deg);
 }
 
